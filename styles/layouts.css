@@ -1,0 +1,23 @@
+.slidev-layout {
+  @apply px-14 py-10 text-[1.1rem];
+
+  h1, h2, h3, h4, p, div {
+    @apply select-none;
+  }
+
+	h1 {
+		color: #00aeef;
+	}
+
+	p {
+		opacity: 1;
+	}
+
+  pre, code {
+    @apply select-text;
+  }
+
+  a {
+    color: theme('colors.primary');
+  }
+}
