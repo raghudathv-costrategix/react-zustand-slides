@@ -1,4 +1,4 @@
-# react-zustand-slidees
+# react-zustand-slides
 
 Built with slidev
 
