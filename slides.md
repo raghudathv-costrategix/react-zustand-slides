@@ -78,14 +78,11 @@ export const counterSlice = createSlice({
     },
     decrement: (state) => {
       state.value -= 1
-    },
-    incrementByAmount: (state, action) => {
-      state.value += action.payload
-    },
+    }
   },
 })
 
-export const { increment, decrement, incrementByAmount } = counterSlice.actions
+export const { increment, decrement } = counterSlice.actions
 
 export default counterSlice.reducer
 ```
@@ -239,3 +236,11 @@ export default function App() {
 }
 ```
 
+---
+
+# Demo App
+<br/>
+
+Try in Codesandbox
+
+[https://codesandbox.io/s/react-zustand-vdi14](https://codesandbox.io/s/react-zustand-vdi14)
